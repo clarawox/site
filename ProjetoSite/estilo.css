@@ -4,17 +4,22 @@ body{
     padding: 0;
     border: 0;
     line-height: 1;
-    font-family: 'Tahoma', "Arial";
+    font-family:  "Arial";
 }
 /*Estilização da sessão HEADER da página*/
 header{
-    background: #FFD5D5;
+    background: #F2D7B6;
     padding: 5px 0;
 }
 /*Estilização da sessão nav da página*/
+
+main{
+    background-color: #D9AB82;
+}
+
 nav{                                    /*nav geral, estilização geral da aba*/
     position: absolute;
-    top: 75px;                         /*distancia em relação ao topo da página*/
+    top: 50px;                         /*distancia em relação ao topo da página*/
     right:0;                            /*distanciamento da margem direita*/
 }
 nav li {
@@ -27,13 +32,13 @@ nav ul {
 
 nav a {                                 /*Quando não possui ponto na frente significa que é um elemento, esse nav estiliza o link*/
     text-transform:  uppercase;         /*coloca os itens em caixa alta*/
-    color: #ff5757;
+    color: #59473C;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
 }
 nav a:hover{                            /*configurações para quando colocamos o mouse em cima dos itens de nav*/
-    color: #FF5757;
+    color: #8C455F;
     text-decoration: underline;
 }
 
@@ -59,21 +64,24 @@ ul{                                          /*itens de menu*/
 
 .titulo_principal{
     text-align: center;
-    font-size: 2em;           /*dobro da fonte padrão*/
+    font-size: 2.5em;           /*dobro da fonte padrão*/
     margin: 0 0 1em;
     clear: left;
+    color: #8C455F;
 }
 
 .principal{
+    font-size: 1.25em; 
     width: 940px;
     margin: 0 auto;
     padding: 3em 0;
-    background: #FFFFFF;
+    background: #D9AB82;
     text-align: justify;
 }
 
 .principal strong {
     font-weight: bold;
+    color: #8C455F;
 }
 
 .principal em{
@@ -81,14 +89,15 @@ ul{                                          /*itens de menu*/
 }
 
 .donuts{
-    width: 120px;
+    width: 160px;
     float: left;
     margin: 0 20px 20px 0;
 }
 
 .map{
+    font-size: 1.25em;
     padding: 3em 0;
-    background: linear-gradient(#FFFFFF, #FFD5D5);
+    background: linear-gradient(#F2D7B6, #D9AB82);
 }
 
 .map_conteudo{
@@ -102,8 +111,9 @@ ul{                                          /*itens de menu*/
 }
 
 .beneficio{
+    font-size: 1.25em;
     padding: 3em 0;
-    background: #FFFFFF;
+    background: #D9AB82;
 }
 
 .conteudo_beneficio{
@@ -121,7 +131,6 @@ ul{                                          /*itens de menu*/
     width: 20%;
     opacity: 50;
     transition: 400ms;
-    box-shadow: 10px 10px 5px 0px #ffacac;
     margin: 0%;
 }
 
@@ -144,4 +153,39 @@ ul{                                          /*itens de menu*/
 .video{
     width: 560px;
     margin: 2em auto;
+}
+
+footer{
+    text-align: center;
+    background-color: #F2D7B6;
+    padding: 40px 0;
+}
+
+.banner{
+    width: 100%;
+}
+
+.copyright{
+    color:#d15763;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+.apres{
+    color:#59473C;
+    text-align: center;
+    font-size: 0.75em;           
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.donut1{
+    margin-left: 5px;
+    width: 30%;
+    border: solid #59473C 3px;
+    height: auto;
+}
+.sab{
+    text-align: center;
+
 }
