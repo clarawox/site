@@ -1,4 +1,8 @@
 /*Estilização do corpo da Página*/
+* {
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -171,6 +175,8 @@ footer{
     margin: 20px 0 0;
 }
 
+
+/*Cardápio*/
 .apres{
     color:#59473C;
     text-align: center;
@@ -179,13 +185,27 @@ footer{
     clear: left;
 }
 
-.donut1{
-    margin-left: 5px;
-    width: 30%;
-    border: solid #59473C 3px;
-    height: auto;
-}
-.sab{
-    text-align: center;
+.produtos {
+    width: 100%;
+    height: 35vh;
 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin: 3.5rem 0px;
+}
+
+.produtos li{
+    border: 3px solid gold;
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#59473C;
+}
+
+.produtos ul {
+    margin-left: 150px;
 }
