@@ -197,7 +197,7 @@ footer{
 }
 
 .produtos li{
-    border: 3px solid gold;
+    border: 3px solid #59473C;
     width: 20%;
 
     display: flex;
