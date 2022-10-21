@@ -26,46 +26,57 @@
         </div>
     </header>
 
-    <form name="frm_contato" method="get" action="mailto:teste@mail.com" target="_blank">
-        <fieldset>
-            <legend>Dados Pessoais:</legend>
-            <label for="nomesobrenome">* Nome e sobrenome:</label>
-            <input type="text" id="nomesobrenome" name="" class="input-padrao" required>
 
-            <label for="email">* Email:</label>
-            <input type="email" id="email" name="" class="input-padrao" required placeholder="seuemail@dominio.com">
 
-            <label for="telefone">Telefone:</label>
-            <input type="tel" id="telefone" name="" class="input-padrao" placeholder="(XX)XXXXX-XXXX">
+    <main>
+        <p class="titulo_contato">CONTATO🍩</p>
 
-            <label for="mensagem">* Mensagem:</label>
-            <textarea cols="70" rows="10" id="mensagem" name="" class="input-padrao" required></textarea>
+        <section class="apres">
+            <h2 class="desc">Qual o motivo do seu contato conosco?
+            </h2>
+        </section>
 
-            <label for="contato">Como prefere o nosso contato?
-                <input type="radio" value="radio-mail" name="Contato"> E-mail
-                <input type="radio" value="radio-telefone" name="Contato"> Telefone
-                <input type="radio" value="radio-whatsapp" name="Contato"> WhatsApp
-            </label>
+        <form name="frm_contato" method="get" action="mailto:teste@mail.com" target="_blank">
+            <fieldset>
+                <legend>Dados Pessoais:</legend>
+                <label for="nomesobrenome">* Nome e sobrenome:</label>
+                <input type="text" id="nomesobrenome" name="" class="input-padrao" required>
 
-            <br>
-            <label for="horario">Qual o motivo do seu contato?
-                <select>
-                    <option>Selecione</option>
-                    <option>Dúvida</option>
-                    <option>Elogio</option>
-                    <option>Sugestão</option>
-                    <option>Reclamação</option>
-                </select>
-            </label>
-            <br>
-        </fieldset>
+                <label for="email">* Email:</label>
+                <input type="email" id="email" name="" class="input-padrao" required placeholder="seuemail@dominio.com">
 
-        <label><input type="checkbox" class="chk">Gostaria de receber nossas novidade?</label>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="" class="input-padrao" placeholder="(XX)XXXXX-XXXX">
 
-        <input type="submit" value="Enviar formulário" class="Enviar"> 
-    </form>
-    <footer>
-        <img src="logo.png" alt="Doces Sonhos">
-        <p class="copyright">&copy; Copyright Doces Sonhos - 2022</p>
-    </footer>
+                <label for="mensagem">* Mensagem:</label>
+                <textarea cols="70" rows="10" id="mensagem" name="" class="input-padrao" required></textarea>
+
+                <label for="contato">Como prefere o nosso contato?
+                    <input type="radio" value="radio-mail" name="Contato"> E-mail
+                    <input type="radio" value="radio-telefone" name="Contato"> Telefone
+                    <input type="radio" value="radio-whatsapp" name="Contato"> WhatsApp
+                </label>
+
+                <br>
+                <label for="horario">Qual o motivo do seu contato?
+                    <select>
+                        <option>Selecione</option>
+                        <option>Dúvida</option>
+                        <option>Elogio</option>
+                        <option>Sugestão</option>
+                        <option>Reclamação</option>
+                    </select>
+                </label>
+                <br>
+            </fieldset>
+
+            <label><input type="checkbox" class="chk"> Gostaria de receber nossas novidade?</label>
+
+            <input type="submit" value="Enviar formulário" class="Enviar">
+        </form>
+        <footer>
+            <img src="logo.png" alt="Doces Sonhos">
+            <p class="copyright">&copy; Copyright Doces Sonhos - 2022</p>
+        </footer>
+    </main>
 </body>
