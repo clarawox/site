@@ -6,7 +6,17 @@
     <meta charset="UTF-8" />
     <title> Aula de Dev WEB</title>
     <link rel="">
+
+    <script> 
+        alert("Utiize esse formula´rio para se comuicar conosco! <3");
+
+        dia = new Array ["Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado"]; 
+        mes = new Array ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+        data = new Date;
+    </script>
 </head>
+
+
 
 <body>
     <header>
@@ -30,7 +40,10 @@
 
     <main>
         <p class="titulo_contato">CONTATO🍩</p>
-
+        <p style="text-align: right; margin-right: 10px;"></p>
+        <script type = "text/javascript">
+            document.write(dia[data.getDay() + ", " + data.getDate() + " de "])
+        </script>
         <section class="apres">
             <h2 class="desc">Qual o motivo do seu contato conosco?
             </h2>
@@ -72,7 +85,7 @@
 
             <label><input type="checkbox" class="chk"> Gostaria de receber nossas novidade?</label>
 
-            <input type="submit" value="Enviar formulário" class="Enviar">
+            <input type="submit" value="Enviar formulário" class="Enviar" onclick="alert('Formulário enviado com sucesso!')">
         </form>
         <footer>
             <img src="logo.png" alt="Doces Sonhos">
