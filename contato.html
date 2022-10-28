@@ -3,16 +3,18 @@
 
 <head>
     <link href="estilo.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <meta charset="UTF-8" />
     <title> Aula de Dev WEB</title>
     <link rel="">
 
-    <script> 
-        alert("Utiize esse formula´rio para se comuicar conosco! <3");
-
-        dia = new Array ["Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado"]; 
-        mes = new Array ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+    <script>
+        alert("Utiize esse formulário para se comunicar conosco! <3");
+        
+        dia = new Array ("Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado");
+        mes = new Array ("janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro");
         data = new Date;
+        
     </script>
 </head>
 
@@ -40,12 +42,15 @@
 
     <main>
         <p class="titulo_contato">CONTATO🍩</p>
-        <p style="text-align: right; margin-right: 10px;"></p>
-        <script type = "text/javascript">
-            document.write(dia[data.getDay() + ", " + data.getDate() + " de "])
-        </script>
+        <p style="text-align: right; margin-right: 10px;">
+            <script type="text/javascript">
+                document.write(dia[data.getDay()] + ", " + data.getDay() + " de " + mes[data.getMonth()] + " de " + data.getFullYear());
+            </script>
+        </p>
         <section class="apres">
-            <h2 class="desc">Qual o motivo do seu contato conosco?
+            <h2 class="desc"> O atendimento funciona de segunda à sexta, das 9hrs as 18hrs | 
+                <a class="whatsapp-link" href="https://wa.me/5599111112222" target="_blank"><i class="fa fa-whatsapp"></i></a> (11) 4444-8888 <br>
+                Qual o motivo do seu contato conosco?
             </h2>
         </section>
 
@@ -85,7 +90,8 @@
 
             <label><input type="checkbox" class="chk"> Gostaria de receber nossas novidade?</label>
 
-            <input type="submit" value="Enviar formulário" class="Enviar" onclick="alert('Formulário enviado com sucesso!')">
+            <input type="submit" value="Enviar formulário" class="Enviar"
+                onclick="alert('Formulário enviado com sucesso!')">
         </form>
         <footer>
             <img src="logo.png" alt="Doces Sonhos">

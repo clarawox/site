@@ -9,6 +9,7 @@ body{
     border: 0;
     line-height: 1;
     font-family:  "Arial";
+    background-color: #ffe7cb;
 }
 /*Estilização da sessão HEADER da página*/
 header{
@@ -20,6 +21,9 @@ header{
 main{
     background-color: #ffe7cb;
     margin-top: -40px;
+    font-family:  "Arial";
+    color: #59473C;
+    font-weight: bold;
 }
 
 nav{                                    /*nav geral, estilização geral da aba*/
@@ -189,6 +193,7 @@ footer{
 .titulo_cardapio{
     font-size: 2.5em;           
     font-weight: bold;
+    padding: 20px 0 0 20px;
     color: #8C455F;
 }
 
