@@ -200,7 +200,7 @@ footer{
 .produtos {
     width: 100%;
     height: 35vh;
-
+    padding: 25px 0 0 25px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -221,6 +221,7 @@ footer{
 
 .produtos li:hover{
     border-color: #8C455F;
+    transform: scale(1.2);
 }
 
 .produtos ul {
@@ -236,6 +237,7 @@ footer{
 }
 
 .contato_texto{
+    font-size: 1em;
     text-align: center;
     padding: 0 0 2% 0;
 }
@@ -280,8 +282,16 @@ fieldset{
     border-radius: 5px;
     transition: 1s all;
     cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+    align-items: center;
 }
 
 .Enviar:hover{
     transform: scale(1.2);
+}
+
+.botao{
+    text-align: center;
+    align-items: center;
 }

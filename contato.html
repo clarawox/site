@@ -42,7 +42,7 @@
 
     <main>
         <p class="titulo_contato">CONTATO🍩</p>
-        <p style="text-align: right; margin-right: 10px;">
+        <p style="text-align: right; margin-right: 10px; font-size: 1em;">
             <script type="text/javascript">
                 document.write(dia[data.getDay()] + ", " + data.getDay() + " de " + mes[data.getMonth()] + " de " + data.getFullYear());
             </script>
@@ -89,9 +89,10 @@
             </fieldset>
 
             <label><input type="checkbox" class="chk"> Gostaria de receber nossas novidade?</label>
-
-            <input type="submit" value="Enviar formulário" class="Enviar"
+            <div class="botao">
+                <input type="submit" value="Enviar formulário" class="Enviar"
                 onclick="alert('Formulário enviado com sucesso!')">
+            </div>
         </form>
         <footer>
             <img src="logo.png" alt="Doces Sonhos">
