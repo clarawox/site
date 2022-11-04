@@ -204,8 +204,7 @@ footer{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
-    margin: 10px 0 40px 0;
+    margin: 30px 0 40px 0;
 }
 
 .produtos li{
@@ -221,7 +220,7 @@ footer{
 
 .produtos li:hover{
     border-color: #8C455F;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .produtos ul {
